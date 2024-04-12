@@ -1,0 +1,222 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 25%;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #171214;
+  gap: 20px;
+}
+
+header ul li img {
+  width: 10px;
+  height: 10px;
+}
+
+.fundo {
+  background-color: #CAFAD9;
+  display: flex;
+  align-items: center;
+  transition: 0.4s ease;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.textos {
+  width: 300px;
+}
+
+.textos h1 {
+  font-size: 46px;
+  font-weight: 400;
+}
+
+.textos span p {
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.buttons {
+  gap: 30px;
+}
+
+.especialista {
+  background-color: #7622D7;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.curriculo {
+  border-radius: 30px;
+  padding: 10px 15px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.section-cards {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #F7F8F7;
+}
+
+.section-cards h1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  background-color: #F7F8F7;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.fundo-cards {
+  background-color: #F7F8F7;
+  padding: 20px 0;
+}
+
+.fundo-remotamente {
+  transition: 0.4s ease;
+  background-color: #CAFAD9;
+  height: 300px;
+}
+
+.elementos-remotamente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  width: 600px;
+  height: 300px;
+  margin: auto;
+}
+
+.elementos-remotamente > * {
+  margin-bottom: 20px;
+}
+
+.textos-remotamente {
+  justify-content: center;
+  text-align: center;
+}
+
+.textos-remotamente h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.textos-remotamente p {
+  text-align: center;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+.button-remotamente {
+  text-align: center;
+}
+
+.button-remotamente button{
+  background-color: #7622D7;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#redes-contatos {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+#redes-contatos div p{
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.top {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.alinhar-centro {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  justify-content: center;
+
+}
+
+.redes-sociais div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.redes-sociais div img {
+  width: 20px;
+  height: 20px;
+}
+
+.direitos {
+  font-size: 12px;
+  color: #171214;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+    padding: 20px 0;
+  }
+}
